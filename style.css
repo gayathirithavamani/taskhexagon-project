@@ -10,25 +10,21 @@
   padding: 0%;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 * {
   position: relative;
-
-
 }
 
-body {}
+body {
+}
 
 nav {
   border-radius: 0px !important;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: "Raleway", sans-serif !important;
   min-height: 5rem !important;
   display: flex;
-
-
-
 }
 
 .navbar-container {
@@ -36,8 +32,6 @@ nav {
   justify-content: end;
   padding: 2rem 1rem;
   align-items: center;
-
-
 }
 
 nav ul {
@@ -48,7 +42,6 @@ nav ul {
 
 nav ul {
   display: flex;
-
 }
 
 nav ul li a {
@@ -56,7 +49,6 @@ nav ul li a {
   transition: 500ms;
   font-size: 20px;
   font-weight: 500;
-
 }
 
 nav ul li a:hover {
@@ -79,8 +71,7 @@ nav ul li a:hover {
 
 .about {
   display: flex;
-  font-family: 'Ubuntu', sans-serif;
-
+  font-family: "Ubuntu", sans-serif;
 }
 
 .about-text {
@@ -91,7 +82,6 @@ nav ul li a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .about-text div {
@@ -110,8 +100,7 @@ nav ul li a:hover {
 
 .plan {
   display: flex;
-  font-family: 'Ubuntu', sans-serif;
-
+  font-family: "Ubuntu", sans-serif;
 }
 
 .plan-img {
@@ -121,7 +110,6 @@ nav ul li a:hover {
   padding: 4rem 6rem;
   align-items: start;
   background-color: #f4f4f4;
-
 }
 
 .plan-img .plan-img-pic {
@@ -146,15 +134,12 @@ nav ul li a:hover {
 .plan-content {
   padding: 4rem 10rem;
   padding-right: 15rem;
-
 }
 
 .plan-content-text p {
   font-size: 18px;
   color: #b5b7ba;
   line-height: 25px;
-
-
 }
 
 .plan-content-text h2 {
@@ -173,7 +158,6 @@ nav ul li a:hover {
   color: #38373c;
   text-transform: capitalize;
   font-weight: 540;
-
 }
 
 .plan-content-card p {
@@ -203,7 +187,6 @@ nav ul li a:hover {
 
 .footer-office {
   width: 30rem;
-
 }
 
 .footer ul {
@@ -216,4 +199,80 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-.footer-contact {}
+.footer-contact {
+}
+
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+.box > .icon {
+  text-align: center;
+  position: relative;
+}
+.box > .icon > .image {
+  position: relative;
+  z-index: 2;
+  margin: auto;
+  width: 88px;
+  height: 88px;
+  border: 8px solid white;
+  line-height: 88px;
+  border-radius: 50%;
+  background: #63b76c;
+  vertical-align: middle;
+}
+.box > .icon:hover > .image {
+  background: #333;
+}
+.box > .icon > .image > i {
+  font-size: 36px !important;
+  color: #fff !important;
+}
+.box > .icon:hover > .image > i {
+  color: white !important;
+}
+.box > .icon > .info {
+  margin-top: -24px;
+  background: rgba(0, 0, 0, 0.04);
+  border: 1px solid #e0e0e0;
+  padding: 15px 0 10px 0;
+}
+.box > .icon:hover > .info {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: #e0e0e0;
+  color: white;
+}
+.box > .icon > .info > h3.title {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  color: #222;
+  font-weight: 500;
+}
+.box > .icon > .info > p {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5em;
+  margin: 20px;
+}
+.box > .icon:hover > .info > h3.title,
+.box > .icon:hover > .info > p,
+.box > .icon:hover > .info > .more > a {
+  color: #222;
+}
+.box > .icon > .info > .more a {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 12px;
+  color: #222;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.box > .icon:hover > .info > .more > a {
+  color: #fff;
+  padding: 6px 8px;
+  background-color: #63b76c;
+}
+.box .space {
+  height: 30px;
+}
