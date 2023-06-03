@@ -199,8 +199,8 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
-.footer-contact {
-}
+/* .footer-contact {
+} */
 
 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
 @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
@@ -217,7 +217,7 @@ nav ul li a:hover {
   height: 88px;
   border: 8px solid white;
   line-height: 88px;
-  border-radius: 50%;
+  border-radius: 70%;
   background: #63b76c;
   vertical-align: middle;
 }
@@ -270,7 +270,7 @@ nav ul li a:hover {
 }
 .box > .icon:hover > .info > .more > a {
   color: #fff;
-  padding: 6px 8px;
+  padding: 10px 8px;
   background-color: #63b76c;
 }
 .box .space {
@@ -339,3 +339,30 @@ nav ul li a:hover {
   font-size: 18px;
   text-align: center;
 }
+
+.work {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+.work2{
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+
+}
+
+.work3 {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+}
+.work4{
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+
+}
+
+
+
